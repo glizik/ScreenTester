@@ -380,7 +380,6 @@
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="9xV-M8-TZA"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="bNb-jJ-Fau" firstAttribute="top" secondItem="BOf-PG-hfh" secondAttribute="top" id="Alo-UQ-BpN"/>
@@ -390,9 +389,9 @@
                             <constraint firstAttribute="bottom" secondItem="bNb-jJ-Fau" secondAttribute="bottom" id="Gug-6j-B3O"/>
                             <constraint firstAttribute="bottom" secondItem="XGi-8e-efU" secondAttribute="bottom" id="Hny-kU-stn"/>
                             <constraint firstItem="XGi-8e-efU" firstAttribute="top" secondItem="BOf-PG-hfh" secondAttribute="topMargin" id="fXE-Sl-XZG"/>
-                            <constraint firstItem="9xV-M8-TZA" firstAttribute="trailing" secondItem="XGi-8e-efU" secondAttribute="trailing" id="mE1-gr-ywI"/>
+                            <constraint firstAttribute="trailing" secondItem="XGi-8e-efU" secondAttribute="trailing" id="mE1-gr-ywI"/>
                             <constraint firstItem="XGi-8e-efU" firstAttribute="width" secondItem="BOf-PG-hfh" secondAttribute="width" multiplier="0.5" id="wWB-B7-Jb2"/>
-                            <constraint firstItem="bNb-jJ-Fau" firstAttribute="leading" secondItem="9xV-M8-TZA" secondAttribute="leading" id="ySl-iE-Ooj"/>
+                            <constraint firstItem="bNb-jJ-Fau" firstAttribute="leading" secondItem="BOf-PG-hfh" secondAttribute="leading" id="ySl-iE-Ooj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qMo-kN-Dk8"/>
@@ -455,7 +454,7 @@
                 <viewController id="apc-Cg-kve" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rsy-gI-Zuy">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUD-xH-eVG">
                                 <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="852"/>
@@ -466,7 +465,6 @@
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="FXL-40-JRV"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="FUD-xH-eVG" firstAttribute="width" secondItem="rsy-gI-Zuy" secondAttribute="width" multiplier="0.5" id="4k8-qb-7JL"/>
@@ -474,8 +472,8 @@
                             <constraint firstAttribute="bottom" secondItem="cNv-fC-TQG" secondAttribute="bottom" id="6eW-pM-DrA"/>
                             <constraint firstAttribute="bottom" secondItem="FUD-xH-eVG" secondAttribute="bottom" id="EFD-OY-7VF"/>
                             <constraint firstItem="cNv-fC-TQG" firstAttribute="width" secondItem="FUD-xH-eVG" secondAttribute="width" id="Srf-FF-Hjn"/>
-                            <constraint firstItem="cNv-fC-TQG" firstAttribute="leading" secondItem="FXL-40-JRV" secondAttribute="leading" id="SuK-6m-4de"/>
-                            <constraint firstItem="FXL-40-JRV" firstAttribute="trailing" secondItem="FUD-xH-eVG" secondAttribute="trailing" id="W9g-hW-wj0"/>
+                            <constraint firstItem="cNv-fC-TQG" firstAttribute="leading" secondItem="rsy-gI-Zuy" secondAttribute="leading" id="SuK-6m-4de"/>
+                            <constraint firstAttribute="trailing" secondItem="FUD-xH-eVG" secondAttribute="trailing" id="W9g-hW-wj0"/>
                             <constraint firstItem="FUD-xH-eVG" firstAttribute="top" secondItem="rsy-gI-Zuy" secondAttribute="top" id="eDb-aH-5lp"/>
                             <constraint firstItem="cNv-fC-TQG" firstAttribute="top" secondItem="rsy-gI-Zuy" secondAttribute="top" id="n1s-4M-GaH"/>
                             <constraint firstItem="FUD-xH-eVG" firstAttribute="top" secondItem="rsy-gI-Zuy" secondAttribute="topMargin" id="tfe-RD-pCQ"/>
@@ -493,7 +491,7 @@
                 <viewController id="UcV-E5-VfW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="giw-DS-NlX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdM-Xj-rKr">
                                 <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="852"/>
@@ -504,14 +502,13 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="2z2-k9-rhi"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="sdM-Xj-rKr" firstAttribute="top" secondItem="giw-DS-NlX" secondAttribute="topMargin" id="A3U-mR-B5P"/>
                             <constraint firstItem="r5a-4c-puy" firstAttribute="width" secondItem="sdM-Xj-rKr" secondAttribute="width" id="JF0-Mm-0Zs"/>
-                            <constraint firstItem="2z2-k9-rhi" firstAttribute="trailing" secondItem="sdM-Xj-rKr" secondAttribute="trailing" id="JJm-fF-ntn"/>
+                            <constraint firstAttribute="trailing" secondItem="sdM-Xj-rKr" secondAttribute="trailing" id="JJm-fF-ntn"/>
                             <constraint firstItem="sdM-Xj-rKr" firstAttribute="centerY" secondItem="giw-DS-NlX" secondAttribute="centerY" id="MKB-gO-GT4"/>
-                            <constraint firstItem="r5a-4c-puy" firstAttribute="leading" secondItem="2z2-k9-rhi" secondAttribute="leading" id="RXq-My-PHT"/>
+                            <constraint firstItem="r5a-4c-puy" firstAttribute="leading" secondItem="giw-DS-NlX" secondAttribute="leading" id="RXq-My-PHT"/>
                             <constraint firstItem="sdM-Xj-rKr" firstAttribute="width" secondItem="giw-DS-NlX" secondAttribute="width" multiplier="0.5" id="VGF-VD-8yp"/>
                             <constraint firstAttribute="bottom" secondItem="r5a-4c-puy" secondAttribute="bottom" id="X7H-h6-okh"/>
                             <constraint firstAttribute="bottom" secondItem="sdM-Xj-rKr" secondAttribute="bottom" id="d1X-Jr-2Na"/>
