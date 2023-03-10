@@ -372,18 +372,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGi-8e-efU">
-                                <rect key="frame" x="196" y="0.0" width="197" height="852"/>
+                                <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="852"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="197" id="yYy-bN-LV7"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNb-jJ-Fau">
-                                <rect key="frame" x="0.0" y="0.0" width="197" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="196.66666666666666" height="852"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="197" id="syc-c1-dnZ"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9xV-M8-TZA"/>
@@ -397,6 +391,7 @@
                             <constraint firstAttribute="bottom" secondItem="XGi-8e-efU" secondAttribute="bottom" id="Hny-kU-stn"/>
                             <constraint firstItem="XGi-8e-efU" firstAttribute="top" secondItem="BOf-PG-hfh" secondAttribute="topMargin" id="fXE-Sl-XZG"/>
                             <constraint firstItem="9xV-M8-TZA" firstAttribute="trailing" secondItem="XGi-8e-efU" secondAttribute="trailing" id="mE1-gr-ywI"/>
+                            <constraint firstItem="XGi-8e-efU" firstAttribute="width" secondItem="BOf-PG-hfh" secondAttribute="width" multiplier="0.5" id="wWB-B7-Jb2"/>
                             <constraint firstItem="bNb-jJ-Fau" firstAttribute="leading" secondItem="9xV-M8-TZA" secondAttribute="leading" id="ySl-iE-Ooj"/>
                         </constraints>
                     </view>
@@ -463,23 +458,18 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUD-xH-eVG">
-                                <rect key="frame" x="196" y="0.0" width="197" height="852"/>
+                                <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="852"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="197" id="CGt-tF-Crb"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNv-fC-TQG">
-                                <rect key="frame" x="0.0" y="0.0" width="197" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="196.66666666666666" height="852"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="197" id="2cY-Ot-gUa"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FXL-40-JRV"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="FUD-xH-eVG" firstAttribute="width" secondItem="rsy-gI-Zuy" secondAttribute="width" multiplier="0.5" id="4k8-qb-7JL"/>
                             <constraint firstItem="FUD-xH-eVG" firstAttribute="centerY" secondItem="rsy-gI-Zuy" secondAttribute="centerY" id="6Xe-TM-XjV"/>
                             <constraint firstAttribute="bottom" secondItem="cNv-fC-TQG" secondAttribute="bottom" id="6eW-pM-DrA"/>
                             <constraint firstAttribute="bottom" secondItem="FUD-xH-eVG" secondAttribute="bottom" id="EFD-OY-7VF"/>
@@ -506,18 +496,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdM-Xj-rKr">
-                                <rect key="frame" x="196" y="0.0" width="197" height="852"/>
+                                <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="852"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="197" id="TID-41-9QE"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5a-4c-puy">
-                                <rect key="frame" x="0.0" y="0.0" width="197" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="196.66666666666666" height="852"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="197" id="E2m-NC-TCc"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2z2-k9-rhi"/>
@@ -528,6 +512,7 @@
                             <constraint firstItem="2z2-k9-rhi" firstAttribute="trailing" secondItem="sdM-Xj-rKr" secondAttribute="trailing" id="JJm-fF-ntn"/>
                             <constraint firstItem="sdM-Xj-rKr" firstAttribute="centerY" secondItem="giw-DS-NlX" secondAttribute="centerY" id="MKB-gO-GT4"/>
                             <constraint firstItem="r5a-4c-puy" firstAttribute="leading" secondItem="2z2-k9-rhi" secondAttribute="leading" id="RXq-My-PHT"/>
+                            <constraint firstItem="sdM-Xj-rKr" firstAttribute="width" secondItem="giw-DS-NlX" secondAttribute="width" multiplier="0.5" id="VGF-VD-8yp"/>
                             <constraint firstAttribute="bottom" secondItem="r5a-4c-puy" secondAttribute="bottom" id="X7H-h6-okh"/>
                             <constraint firstAttribute="bottom" secondItem="sdM-Xj-rKr" secondAttribute="bottom" id="d1X-Jr-2Na"/>
                             <constraint firstItem="r5a-4c-puy" firstAttribute="top" secondItem="giw-DS-NlX" secondAttribute="top" id="jld-qw-qkp"/>
@@ -546,6 +531,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="G0B-Na-0g3" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FOH-qC-Jp3">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
